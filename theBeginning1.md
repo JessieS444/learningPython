@@ -35,7 +35,7 @@
 ![image](https://github.com/JessieS444/learningPython/assets/157999229/8e26d5a5-806c-4010-89e1-15183862d4cc)
 
 
-- hi
+- `python` is the command that brings up the python interpreter.
 
 ### The Python Shell:
 -
