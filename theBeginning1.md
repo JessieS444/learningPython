@@ -17,9 +17,12 @@
 - Text editors allow us space to write and edit code. GNU nano is a text editor. You write the code in a file.
 - Different colors in code is called "syntax highlighting." Syntax is the rules of the language (just like in non-coding languages).
 - <u>Script:</u> a program or sequence of instructions that is interpreted or carried out by another program rather than by the computer processor. (according to techtarget.com)
+    - <u>Script:</u> The file we are writing that the Python interpreter will use. (according to Treehouse)
     - Python programs are commonly called scripts. (according to realpython.com)
 - <u>String:</u> a string is a sequence of characters encolsed between the quotation marks. Example: "Hello, World." (according to emory.edu)
-- After writing code in a file, it is passed to a Python Interpreter
+- After writing code in a file, it is passed to a Python Interpreter, which reads it line by line and interpret the meaning from the written script. Then, it will perform the actions in the code or evaluate it.
+- <u>Interpreter:</u> The program that will read and execute our script.
+- <u>Console:</u> also known as a command prompt (Windows OS), powershell (Windows OS), terminal (Mac OS). A tool that sends low level commands to your Operating System (macOS / Windows / Linux).
 
 ### The Python Shell:
 -
