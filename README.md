@@ -1,4 +1,4 @@
-# LearningPython
+# Learning Python
 
 I'm making this repository as a reference to myself as I try to learn python. I need to be at an intermediate level before the beginning of the fall semeser, so I have this summer to learn. Maybe if I don't find it too challenging I'll also be learning another coding language? I want to learn a lot to be able to broaden my career prospects.
 
