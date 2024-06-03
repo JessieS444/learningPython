@@ -2,14 +2,14 @@
 
 ## Welcome, Running Scripts, the Python Shell, and REPL
 
-Welcome:
+### Welcome:
 -
 
-Running Scripts:
+### Running Scripts:
 -
 
-The Python Shell:
+### The Python Shell:
 -
 
-REPL:
+### REPL:
 -
