@@ -38,7 +38,11 @@
 - `python` is the command that brings up the python interpreter.
 
 ### The Python Shell:
--
+- Can use the interpreter to open up a prompt that will let you type code line by line. This is useful for creating code to figure out what it does without writing a whole script (playing around).
+    - This exploratory prompt is called a REPL (Read, Evaluate, Print, Loop).
+    - <u>REPL:</u> REPL is an acronym for Read, Evaluate, Print, and Loop. Developers use REPL Python to communicate with the Python Interpreter. In contrast to running a Python file, you can input commands in the REPL and see the results displayed immediately. (according to codeinstitute.net)
+          - The Python interpreter allows for what's known as an interactive REPL (Read-Eval-Print Loop), or shell, which reads a piece of code, evaluates it, and then prints the result to the console in a loop. You can try out code ideas quickly. (according to realpython.com)
+- Hi
 
 ### REPL:
 -
