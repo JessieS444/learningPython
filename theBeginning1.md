@@ -16,13 +16,13 @@
 ### Running Scripts:
 - Text editors allow us space to write and edit code. GNU nano is a text editor. You write the code in a file.
 - Different colors in code is called "syntax highlighting." Syntax is the rules of the language (just like in non-coding languages).
-- <u>Script:</u> a program or sequence of instructions that is interpreted or carried out by another program rather than by the computer processor. (according to techtarget.com)
+- <ins>Script:</ins> a program or sequence of instructions that is interpreted or carried out by another program rather than by the computer processor. (according to techtarget.com)
     - <ins>Script:</ins> The file we are writing that the Python interpreter will use. (according to Treehouse)
     - Python programs are commonly called scripts. (according to realpython.com)
-- _String:_ a string is a sequence of characters encolsed between the quotation marks. Example: "Hello, World." (according to emory.edu)
+- <ins>String:</ins> a string is a sequence of characters encolsed between the quotation marks. Example: "Hello, World." (according to emory.edu)
 - After writing code in a file, it is passed to a Python Interpreter, which reads it line by line and interpret the meaning from the written script. Then, it will perform the actions in the code or evaluate it.
-- <u>Interpreter:</u> The program that will read and execute our script.
-- <u>Console:</u> also known as a command prompt (Windows OS), powershell (Windows OS), terminal (Mac OS). A tool that sends low level commands to your Operating System (macOS / Windows / Linux).
+- <ins>Interpreter:</ins> The program that will read and execute our script.
+- <ins>Console:</ins> also known as a command prompt (Windows OS), powershell (Windows OS), terminal (Mac OS). A tool that sends low level commands to your Operating System (macOS / Windows / Linux).
 
 ![image](https://github.com/JessieS444/learningPython/assets/157999229/3b1dc688-7843-4c6b-9b81-711958021abf)
 
@@ -40,7 +40,7 @@
 ### The Python Shell:
 - Can use the interpreter to open up a prompt that will let you type code line by line. This is useful for creating code to figure out what it does without writing a whole script (playing around).
     - This exploratory prompt is called a REPL (Read, Evaluate, Print, Loop).
-    - <u>REPL:</u> REPL is an acronym for Read, Evaluate, Print, and Loop. Developers use REPL Python to communicate with the Python Interpreter. In contrast to running a Python file, you can input commands in the REPL and see the results displayed immediately. (according to codeinstitute.net)
+    - <ins>REPL:</ins> REPL is an acronym for Read, Evaluate, Print, and Loop. Developers use REPL Python to communicate with the Python Interpreter. In contrast to running a Python file, you can input commands in the REPL and see the results displayed immediately. (according to codeinstitute.net)
           - The Python interpreter allows for what's known as an interactive REPL (Read-Eval-Print Loop), or shell, which reads a piece of code, evaluates it, and then prints the result to the console in a loop. You can try out code ideas quickly. (according to realpython.com)
 - Hi
 
