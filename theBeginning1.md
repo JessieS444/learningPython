@@ -48,6 +48,9 @@
 ![image](https://github.com/JessieS444/learningPython/assets/157999229/6e50d97c-e4b8-40fb-92a2-100d1895526a)
 
 - In the above, "print" is the function. This is an example of testing a line of code in the python shell.
-
-### REPL:
--
+- Press the up arrow to get a copy of the last thing you typed into the python shell.
+- Python shell can be used as a calculator. Just type in the equation, no function needed.
+- The python shell can help you if you need it using the `help` function.
+    - For example, if you want to know more about the `print` function, you would type `help(print)`. This will open up the pager with details about the print function.
+    - The bottom of the page will read "(END)". To get out of a pager, you can press Q.
+- To exit the python shell, use the `exit` function. I typed `exit()` to get out of the python shell. You can also use CTRL + D to "drop" out of it (exit).
