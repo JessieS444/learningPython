@@ -20,4 +20,7 @@ Before we get any further, the command to clear the console is "CTRL + L". It is
   3. They cannot be a Python keyword.
 - To name a string literal, you put "variable_name = 'string literal'"
   - This form of naming is the conventional way for Python. It is often referred to as "snake case" (adorable).
-  - 
+ - The `print` function can hold multiple arguments so that it prints the strings with a space in between each one. This is done by separating the arguments with a comma.
+  - Example: print("These", "will be", "joined together by spaces")
+  - You don't put a variable name in quotation marks when putting multiple arguments together with the print function.
+    - For example, `print("Hello,", "first_name") will cause the python shell to print "Hello, first_name". But if you put `print("Hello," first_name) it will print "Hello, Ada" (Ada being the string literal that is named "first_name").
