@@ -35,3 +35,4 @@ Before we get any further, the command to clear the console is "CTRL + L". It is
 ![image](https://github.com/JessieS444/learningPython/assets/157999229/2a7e82d2-4e7b-4fc1-95f9-333da92723d9)
 
 - A variable can be thought of as a storage container. You "store" things under a variable name.
+- Keep with the conventions of the coding language that you are using, even if it is not technically necessary. This is called <ins>coding style</ins>. This will help your code be readable to others as well as yourself over time.
