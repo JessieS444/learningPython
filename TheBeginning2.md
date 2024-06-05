@@ -24,3 +24,14 @@ Before we get any further, the command to clear the console is "CTRL + L". It is
   - Example: print("These", "will be", "joined together by spaces")
   - You don't put a variable name in quotation marks when putting multiple arguments together with the print function.
     - For example, `print("Hello,", "first_name")` will cause the python shell to print "Hello, first_name". But if you put `print("Hello," first_name)` it will print "Hello, Ada" (Ada being the string literal with the variable name "first_name").
+   
+## Input and Coding Style
+- <ins>Input</ins>: information gathered from the users of an application.
+  - `input` is the command for this (easy).
+  - Example: `input("How are you today?")` will prompt the user to answer the question and then write out the answer.
+- Variables can include other commands. For example, `current_mood = input("How are you today?   ")` will make the input given to the question equal the current_mood. So if you answer "wonderful" to the question, current_mood = wonderful.
+- The following code was made based off of what I've learned so far:
+
+![image](https://github.com/JessieS444/learningPython/assets/157999229/2a7e82d2-4e7b-4fc1-95f9-333da92723d9)
+
+- 
