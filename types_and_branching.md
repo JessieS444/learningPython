@@ -11,4 +11,4 @@
   - Even whole numbers that display a decimal point are considered float. 4.0 is a float.
   - Needed for precision.
   - Need to be careful with this. Sometimes will get odd results. Example: 0.1 + 0.1 + 0.1 - 0.3 will give you the answer 5.551115123125783e-17 with is a negative exponent and is zero with seventeen zeros following it and then a five. Why? I have no idea.
-- To round floats
+- To round floats back to an integer, use the function `round`. Use the underscore to round the last solution you got: `round(_)`. 
