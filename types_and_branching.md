@@ -12,3 +12,6 @@
   - Needed for precision.
   - Need to be careful with this. Sometimes will get odd results. Example: 0.1 + 0.1 + 0.1 - 0.3 will give you the answer 5.551115123125783e-17 with is a negative exponent and is zero with seventeen zeros following it and then a five. Why? I have no idea.
 - To round floats back to an integer, use the function `round`. Use the underscore to round the last solution you got: `round(_)`. 
+- Python uses PEMDAS: Please Excuse My Dear Aunt Sally - Parentheses, Exponents, Multiplication and Division, Addition and Subtraction.
+- "TypeError" will occur if you mix and match types of strings that don't work together in equations (for example, "apple" + 2 or "11" +2).
+- You can use the command `int( )` to transform a number into an integer. Conversely, you can use `float( )` to transform into a float. These functions will not round, they will just drop everything after the decimal point.
