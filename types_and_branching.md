@@ -20,7 +20,7 @@
   - Example: `23 % 3` gets you the answer of 2 because 3 goes into 23 seven times with a remainder of 2.
 
 ## Strings and Operators
-
+- After you create a string, it is <ins>immutable</ins>, or impossible to modify.
 
 ## String Methods
 
