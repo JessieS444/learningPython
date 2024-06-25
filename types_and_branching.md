@@ -18,3 +18,17 @@
 - <ins>Division Shortcut</ins>: normal division uses a forward slash. If you use two forward slashes, it is the division shortcut and will get you just the whole number portion without the decimal (integer instead of float).
 - <ins>Modulus</ins>: lets you get the remainder for math that does not have a whole number answer. To use the modulus put a % sign as the operator.
   - Example: `23 % 3` gets you the answer of 2 because 3 goes into 23 seven times with a remainder of 2.
+
+## Strings and Operators
+
+
+## String Methods
+
+
+## Booleans
+
+
+## If, Else, and Elif
+
+
+## Comparisons
