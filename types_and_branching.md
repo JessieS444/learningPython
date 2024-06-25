@@ -15,4 +15,6 @@
 - Python uses PEMDAS: Please Excuse My Dear Aunt Sally - Parentheses, Exponents, Multiplication and Division, Addition and Subtraction.
 - "TypeError" will occur if you mix and match types of strings that don't work together in equations (for example, "apple" + 2 or "11" +2).
 - You can use the command `int( )` to transform a number into an integer. Conversely, you can use `float( )` to transform into a float. These functions will not round, they will just drop everything after the decimal point.
-- <ins>Division Shortcut</ins>: normal division uses a forward slash. If you use two forward slashes, it is the division shortcut and will get you just the whole number portion without the decimal (
+- <ins>Division Shortcut</ins>: normal division uses a forward slash. If you use two forward slashes, it is the division shortcut and will get you just the whole number portion without the decimal (integer instead of float).
+- <ins>Modulus</ins>: lets you get the remainder for math that does not have a whole number answer. To use the modulus put a % sign as the operator.
+  - Example: `23 % 3` gets you the answer of 2 because 3 goes into 23 seven times with a remainder of 2.
