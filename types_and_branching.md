@@ -21,6 +21,8 @@
 
 ## Strings and Operators
 - After you create a string, it is <ins>immutable</ins>, or impossible to modify.
+- When making a string literal using either quotes or double quotes, you can use a backslash to start an <ins>escape sequence<\ins>.
+- <ins>Escape Sequence<\ins>: use backslash to tell the interpreter to treat a quote or double quote like a character instead of syntax.
 
 ## String Methods
 
