@@ -21,8 +21,23 @@
 
 ## Strings and Operators
 - After you create a string, it is <ins>immutable</ins>, or impossible to modify.
-- When making a string literal using either quotes or double quotes, you can use a backslash to start an <ins>escape sequence<\ins>.
-- <ins>Escape Sequence<\ins>: use backslash to tell the interpreter to treat a quote or double quote like a character instead of syntax.
+- When making a string literal using either quotes or double quotes, you can use a backslash to start an <ins>escape sequence</ins>.
+- <ins>Escape Sequence</ins>: use backslash to tell the interpreter to treat a quote or double quote like a character instead of syntax.
+  - Example: 'I can\'t understand'
+  - Escape sequence for adding a new line is `\n`
+  - For example: "I can't...\n\neven" adds two blank lines before "even." However, python doesn't want to let us do that, so after putting in the string literal, you have to use the command `print(_)` to make it print the last thing correctly.
+  - You can also use triple quotes at the beginning and end of the string to edit multiple lines without using the `\n`. It will give you the translation to the `\n` version and then you can use `print(_)` to print it.
+    ![image](https://github.com/JessieS444/learningPython/assets/157999229/48fd75b3-8782-468e-8242-c6de807b3a39)
+- You can combine two strings by using a plus sign. This is called <ins>concatenation</ins>.
+  - "chocolate" + "marshmallow" will give you the string 'chocolatemarshmallow'. Add proper spacing if you want that.
+    - Can store as a variable in `dessert = "chocolate" + " and marshmallows"`. This prints as "chocolate and marshmallows".
+- <ins>Reassigning</ins>: using variables to create a brand new one.
+  - Example: using the dessert variable and reassigning it using `dessert = dessert + " and graham crackers"`
+  - This is useful because strings cannot be changed (immutable) so this is commonly used to add more text to the end of a string.
+- There is a shortcut for reassigning called <ins>in-place addition</ins>. `+=` is used for this.
+  - This would allow us to do the same as the above reassignment string but instead would look like `dessert += ", yum"`. This would automatically add the additional text and `dessert` would now print 'chocolate and marshmallows and graham crackers, yum'.
+  - Can add a lot of exclamation points through doing `dessert += "!" * 20`.
+
 
 ## String Methods
 
