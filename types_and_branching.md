@@ -44,7 +44,7 @@
 - Everything you create is an object. Strings are objects. All objects can have abilities or methods.
 - <ins>Methods</ins>: functions that belong to an object. You can access methods that an object owns by using a <ins>dot notation</ins>. Add a period after an object to access the object's methods.
   - For example, one method on strings is called <ins>upper</ins>. It creates a new string where all the characters in the original string are converted to uppercase. To access the upper method on the object "quote", use the command `quote.upper()` (upper function doesn't take an argument but you still must use parenthesis to call the function).
-  - Another similar method is called <ins>lower</ins>.
+  - Another similar method is called <ins>lower</ins>. This converts all the characters in the object turn to lowercase. You'd call this function using `quote.lower()`. 
 
 ## Booleans
 
