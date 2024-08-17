@@ -63,7 +63,15 @@
 
 
 ## Booleans
-
+- <ins>Boolean</ins> data types only have two vaild values (literals): True and False. They are very important to use when making Python code in order to get data so that the code works.
+  - Ones and zeroes represent True and False (respectively).
+- You can coerce values to be True or False using the `bool` function.
+  - `bool(1)` is True and `bool(0)` is False. Any non-zero number is True and zero is False.
+  - `bool("burrito")` is True because any object that isn't empty is True.
+- <ins>Empty String:</ins> instead of being a string literal (a pair of quotes surrounding a character), an empty string has nothing in the quotes. Empty strings are False.
+- The way in which a value coerces to a boolean has a name: truthy or falsey. An empty string is falsey while the number seven is truthy.
+- To negate a value of a boolean value (get the opposite of a value), you can use the `not` keyword.
+  - `not True` gives you the result "False".
 
 ## If, Else, and Elif
 
