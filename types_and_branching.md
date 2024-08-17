@@ -44,7 +44,22 @@
 - Everything you create is an object. Strings are objects. All objects can have abilities or methods.
 - <ins>Methods</ins>: functions that belong to an object. You can access methods that an object owns by using a <ins>dot notation</ins>. Add a period after an object to access the object's methods.
   - For example, one method on strings is called <ins>upper</ins>. It creates a new string where all the characters in the original string are converted to uppercase. To access the upper method on the object "quote", use the command `quote.upper()` (upper function doesn't take an argument but you still must use parenthesis to call the function).
-  - Another similar method is called <ins>lower</ins>. This converts all the characters in the object turn to lowercase. You'd call this function using `quote.lower()`. 
+  - Another similar method is called <ins>lower</ins>. This converts all the characters in the object turn to lowercase. You'd call this function using `quote.lower()`.
+  - The <ins>title</ins> function capitalizes the first letter of each word in the object. Use `quote.title()` to use it.
+  - Can turn objects into strings using `str` function.
+    - `str(42)` will give us the string "42" rather than the integer 42.
+    - If you need to know what other methods a string owns, use the function `help(str)`.
+  - <ins>String Formatting:</ins> allows you to create a reusable template that can be populated with different data.
+    - Example: one below that is an email subject line for Treehouse students:
+![image](https://github.com/user-attachments/assets/d4443174-aada-46d3-a5de-e3f77da5883c)
+    - 1. Create a variable called "subject_template".
+      2. Put in the string that you want as your template.
+      3. Add placeholder brackets "{}" where you want to input the changing data.
+      4. Now that the template is created, you can fill it with data. Use the format method on strings in order to do this: `subject_template.format()`.
+      5. Fill the argument with the data you want in the blanks; in this case, that would be `subject_template.format("Python", "Valentina")`
+      6. 
+
+
 
 ## Booleans
 
