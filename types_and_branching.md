@@ -57,7 +57,7 @@
       3. Add placeholder brackets "{}" where you want to input the changing data.
       4. Now that the template is created, you can fill it with data. Use the format method on strings in order to do this: `subject_template.format()`.
       5. Fill the argument with the data you want in the blanks; in this case, that would be `subject_template.format("Python", "Valentina")`
-      6. 
+      6. You can also 
 
 
 
