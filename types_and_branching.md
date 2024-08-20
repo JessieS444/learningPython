@@ -72,6 +72,10 @@
 - The way in which a value coerces to a boolean has a name: truthy or falsey. An empty string is falsey while the number seven is truthy.
 - To negate a value of a boolean value (get the opposite of a value), you can use the `not` keyword.
   - `not True` gives you the result "False".
+- You can use "and" or "or" just like you would in a boolean search:
+  - `True and True` would give the result "True".
+  - `True and True and True` would also give the result "True". The computer would first solve the answer to the first "and" ("True and True") then use that answer as a part of the second "and" (also "True and True"). If you add `and False` at the end of the above string, the answer would be "False".
+  - When using "and", False rules over True. When using "or", True rules over False.
 
 ## If, Else, and Elif
 
